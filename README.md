@@ -8,4 +8,5 @@ Clone the repository using 'git clone https://github.com/stefanarctic/HTML-Grabb
 **Running**
 
 Go in the directory the program is and from the command line run 'node htmlgrabber.js'
+
 !Note: Be sure that you have node installed
