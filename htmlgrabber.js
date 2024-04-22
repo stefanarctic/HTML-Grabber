@@ -1,7 +1,9 @@
 
-const prompt = require('prompt-sync')();
-const fs = require('fs');
-const fetch = require('node-fetch');
+import PromptSync from "prompt-sync";
+import fs from 'fs';
+import fetch from "node-fetch";
+
+const prompt = PromptSync();
 
 function handleData(data) {
 	fs.appendFile("index.html", data, res => {
